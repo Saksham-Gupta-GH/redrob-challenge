@@ -11,7 +11,7 @@ team_members:
     role: "ML Engineer"
 
 github_repo: "https://github.com/Saksham-Gupta-GH/redrob-challenge"
-sandbox_link: "https://huggingface.co/spaces/Saksham-Gupta-GH/redrob-ranker"
+sandbox_link: "https://colab.research.google.com/drive/1FzzywXLDx-aphcto8ck1BOq4OJIMm-Sc#scrollTo=TyHZ8EREhrEc"
 
 reproduce_command: "python3 rank.py --candidates ./candidates.jsonl --out ./submission.csv"
 
