@@ -1,0 +1,43 @@
+team_name: "AI Mavericks"
+
+primary_contact:
+  name: "Saksham Gupta"
+  email: "saksham.gupta@example.com"
+  phone: "+91-9999999999"
+
+team_members:
+  - name: "Saksham Gupta"
+    email: "saksham.gupta@example.com"
+    role: "ML Engineer"
+
+github_repo: "https://github.com/Saksham-Gupta-GH/redrob-challenge"
+sandbox_link: "https://huggingface.co/spaces/Saksham-Gupta-GH/redrob-ranker"
+
+reproduce_command: "python3 rank.py --candidates ./candidates.jsonl --out ./submission.csv"
+
+compute:
+  platform: "MacBook Pro"
+  cpu_cores: 8
+  ram_gb: 16
+  python_version: "3.14.5"
+  os: "macOS"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: false
+  pre_computation_time_minutes: 0
+
+ai_tools_used:
+  - "Claude"
+
+ai_usage_summary: |
+  Used an AI agent to help refine heuristic logic, implement the strict ranking constraints, and generate the reporting structures. No LLM calls happen during runtime evaluation.
+
+methodology_summary: |
+  Rule-based ranker with explicit reasoning capture. We implemented a high-performance heuristic scoring module incorporating semantic keyword matching for embeddings and vector DBs. It applies strict anti-honeypot logic and uses the behavioral signals as a multiplier to derive a final robust score. Memory is kept low by streaming the JSONL.
+
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true

@@ -1,0 +1,9 @@
+*.jsonl
+*.jsonl.gz
+*.csv
+*.txt
+*.docx
+*.json
+!submission_metadata.yaml
+__pycache__/
+*.pyc
