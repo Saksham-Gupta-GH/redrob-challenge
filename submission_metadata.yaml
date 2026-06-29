@@ -1,14 +1,20 @@
-team_name: "AI Mavericks"
+team_name: "Road Roller"
 
 primary_contact:
-  name: "Saksham Gupta"
-  email: "saksham.gupta@example.com"
-  phone: "+91-9999999999"
+  name: "Abhishek Patro"
+  email: "abhishek.patro1801@gmail.com"
+  phone: ""
 
 team_members:
+  - name: "Abhishek Patro"
+    email: "abhishek.patro1801@gmail.com"
+    role: "Leader"
+  - name: "Kushagra Gupta"
+    email: "kushagrab424@gmail.com"
+    role: "Team Member"
   - name: "Saksham Gupta"
-    email: "saksham.gupta@example.com"
-    role: "ML Engineer"
+    email: "saksham77779@gmail.com"
+    role: "Team Member"
 
 github_repo: "https://github.com/Saksham-Gupta-GH/redrob-challenge"
 sandbox_link: "https://colab.research.google.com/drive/1FzzywXLDx-aphcto8ck1BOq4OJIMm-Sc#scrollTo=TyHZ8EREhrEc"
