@@ -1,7 +1,7 @@
 # Redrob Hackathon: Intelligent Candidate Discovery
 
-## Team: AI Mavericks
-**Member**: Saksham Gupta
+## Team: Road Roller
+**Members**: Saksham Gupta, Kushagra Gupta, Abhishek Patro
 
 ## Overview
 This repository contains the top-100 ranking pipeline for the Intelligent Candidate Discovery Challenge.
